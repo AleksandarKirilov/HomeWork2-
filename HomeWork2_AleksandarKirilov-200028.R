@@ -3,7 +3,7 @@ Bet <- 1
 Money <- 100
 while(Money > 0 ){
   
-  cointoss <- sample(c("win","loss"),1,prob = c(0.4,0.6))
+  cointoss <- sample(c("win","loss"),1,prob = c(0.514,0.486))
   
   if(cointoss == "win"){
   Money <- Money + Bet
